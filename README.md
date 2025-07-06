@@ -48,26 +48,26 @@ Urban parking is in high demand but pricing is often static, causing overcrowdin
      +---------+---------+
                |
                v
-   +----------------------------+
-   |  Pathway Streaming Engine  |
-   +----------------------------+
+    +----------------------------+
+    |  Pathway Streaming Engine  |
+    +----------------------------+
                |
                v
-   +----------------------------+
-   |   Preprocessing & Features |
-   +----------------------------+
+    +----------------------------+
+    |   Preprocessing & Features |
+    +----------------------------+
                |
                v
-   +----------------------------+
-   |   ML Pricing Logic         |
-   |   (Baseline / Demand /     |
-   |    Competitive)            |
-   +----------------------------+
+    +----------------------------+
+    |   ML Pricing Logic         |
+    |   (Baseline / Demand /     |
+    |    Competitive)            |
+    +----------------------------+
                |
                v
-   +----------------------------+
-   |   Bokeh Visualisation      |
-   +----------------------------+
+    +----------------------------+
+    |   Bokeh Visualisation      |
+    +----------------------------+
                |
                v
         Dynamic Pricing Display
