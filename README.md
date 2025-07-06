@@ -43,3 +43,32 @@ Urban parking is in high demand but pricing is often static, causing overcrowdin
 
 ## 🏗️ Architecture Diagram
 
+     +-------------------+
+     |   User Vehicle    |
+     +---------+---------+
+               |
+               v
+   +----------------------------+
+   |  Pathway Streaming Engine  |
+   +----------------------------+
+               |
+               v
+   +----------------------------+
+   |   Preprocessing & Features |
+   +----------------------------+
+               |
+               v
+   +----------------------------+
+   |   ML Pricing Logic         |
+   |   (Baseline / Demand /     |
+   |    Competitive)            |
+   +----------------------------+
+               |
+               v
+   +----------------------------+
+   |   Bokeh Visualisation      |
+   +----------------------------+
+               |
+               v
+        Dynamic Pricing Display
+
